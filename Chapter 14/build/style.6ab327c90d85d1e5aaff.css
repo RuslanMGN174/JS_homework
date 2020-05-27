@@ -1,0 +1,24 @@
+.place {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  background-image: url(47692505d122dbcae490be2492a60b2e.png);
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+

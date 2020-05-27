@@ -1,0 +1,35 @@
+{
+  "name": "skillbox-chapter-14-js-hw-knyazev",
+  "version": "1.0.0",
+  "description": "Chapter_14",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello",
+    "node.js"
+  ],
+  "author": "Ruslan Knyazev",
+  "license": "MIT"
+}
